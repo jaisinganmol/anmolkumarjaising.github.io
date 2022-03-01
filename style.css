@@ -341,7 +341,7 @@ p {
 	display: grid;
 	height: 100%;
 	place-items: center;
-	background: #f7e6c4;
+	background: #ff914d73;
 }
 ::selection{
 	color: #fff;
@@ -389,7 +389,7 @@ p {
 	border-radius: 10px;
 	transform: scaleX(0);
 	transform-origin: left;
-	background: #ff4d4d;
+	background: #ff4d4dad;
 	animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.html span{
