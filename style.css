@@ -343,6 +343,11 @@ p {
 	place-items: center;
 	background: #ff914d73;
 }
+
+skills-header{
+	padding: 0, 20px, 20px, 20px;
+}
+
 ::selection{
 	color: #fff;
 	background: #6665ee;
