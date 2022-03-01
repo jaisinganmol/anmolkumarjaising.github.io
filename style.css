@@ -450,13 +450,13 @@ skills-header{
 	content: "90%";
   }
   .progress-line.css span::after{
-	content: "85%";
+	content: "80%";
   }
   .progress-line.jquery span::after{
-	content: "70%";
+	content: "85%";
   }
   .progress-line.python span::after{
-	content: "75%";
+	content: "78%";
   }
   .progress-line.mysql span::after{
 	content: "75%";
