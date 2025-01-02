@@ -10,120 +10,382 @@
 </head>
 
 <body>
+
   <!-- Header -->
+
   <section id="header">
     <div class="header container">
       <div class="nav-bar">
         <div class="social">
-          <a href="#">
+          <a href="index.html">
             <h1><span>A</span>nmol <span>J</span>aising</h1>
           </a>
         </div>
-        <div class="hamburger">&#9776;</div>
-        <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Work-Ex</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About Me</a></li>
+            <li><a href="#skills" data-after="Skills">Skills</a></li>
+            <li><a href="#services" data-after="Service">Work-Ex</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>
 
+  <!-- End Header -->
+
   <!-- Hero Section -->
+
   <section id="hero">
     <div class="hero container">
       <div>
         <h1>Hello,<span></span></h1>
         <h1>I'm<span></span></h1>
         <h1>ANMOL<span></span></h1>
-        <a href="https://www.linkedin.com/in/anmoljaising" target="_blank" class="cta">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/anmoljaising" target="_blank" type="button" class="cta">LinkedIn</a>
       </div>
     </div>
   </section>
 
+  <!-- End Hero Section -->
+
   <!-- About Section -->
+
   <section id="about">
     <div class="about container">
       <div class="col-left">
         <div class="about-img">
-          <img src="./img/about.jpg" alt="About Me">
+          <img src="./img/about.jpg" alt="img">
         </div>
       </div>
       <div class="col-right">
-        <h1 class="section-title">About <span>Me</span></h1>
-        <h2>Software Engineer | Full Stack Developer</h2>
-        <p>Hi! I'm Anmol Jaising, a passionate Software Engineer with expertise in Software and Web Development.</p>
-        <p>Previously, I interned at Copart and GeekHive, and worked at Accenture as an Application Development Associate. I also mentor students in Python programming.</p>
-        <a href="https://drive.google.com/drive/u/0/folders/1rWUs1llj5Yu_exXFvzlIEI7N5kUSmxYF" target="_blank" class="cta">Download Resume</a>
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Software Engineer | Full Stack Engineer</h2>
+        <p>Hi! I'm Anmol Jaising! A passionate, enthusiastic Software Engineer with experience around the areas of the
+          Software and Web Development.</p>
+        <p>In the past, I have interned with Copart as a Software Engineer, co-oped with GeekHive as a Full Stack
+          Engineer Intern, and worked full-time with Accenture (India), as a Application Development Associate.</p>
+        <p>I also mentor undergraduate students learning the Python programming language for the first time.</p>
+        <p><b>Actively seeking Full-time opportunities as a Software Engineer.</b></p>
+
+        <a href="https://drive.google.com/drive/u/0/folders/1rWUs1llj5Yu_exXFvzlIEI7N5kUSmxYF" target="_blank"
+          class="cta">Download Resume</a>
       </div>
     </div>
   </section>
+
+  <!-- End About Section -->
 
   <!-- Skills Section -->
+
   <section id="skills">
     <div class="skills container">
-      <h1 class="section-title">Skills</h1>
-      <p>Some of my technical skills include:</p>
-      <ul>
-        <li>Java</li>
-        <li>Python</li>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>Angular</li>
-        <li>Spring Boot</li>
-      </ul>
+      <div class="skills-header">
+        <h1 class="section-title">SKI<span>I</span>LLS</h1>
+        <p> Some of my top skills. (Just some, I promise! )</p>
+      </div>
+      <div class="skill-bars">
+        <div class="bar">
+          <div class="info">
+            <span>JAVA</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>SQL</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>C#</span>
+          </div>
+          <div class="progress-line jquery">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>Python</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>JavaScript</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>GIT</span>
+          </div>
+          <div class="progress-line git">
+            <span></span>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Work Experience Section -->
+  <!-- End Skills Section -->
+
+  <!-- Service Section -->
+
   <section id="services">
     <div class="services container">
-      <h1 class="section-title">Work Experience</h1>
-      <div>
-        <h2>Software Engineer Intern - Copart</h2>
-        <p>Developed solutions using Java, Spring Boot, and Apache Kafka.</p>
+      <div class="service-top">
+        <h1 class="section-title">EXPER<span>i</span>ENCE</h1>
+        <p>In my opinion, EXPERIENCE MATTERS !</p>
+        <p>I have a couple of internships with GeekHive and Copart, two years of full-time work with Accenture in India,
+          I can confidently say that</p>
+        <p><i>Experience is the hardest kind of teacher. It gives you test first and the lesson afterward.</i></p>
       </div>
-      <div>
-        <h2>Full Stack Developer Intern - GeekHive</h2>
-        <p>Designed and built a search report system with MongoDB and Elasticsearch.</p>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="  icon"><img src="img/rit.jpg" /></div>
+          <h2>Software Developer co-op</h2>
+          <h2>RIT</h2>
+          <h3> September 2021 - December 2021</h3>
+          <p>I interned as a Java Developer at RIT's Information and Technology Service in the Enterprise Web Applications
+            team!</p>
+          <p>My work revolved around Java, Angular and Spring Boot.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/copart.png" /></div>
+          <h2>Software Engineering Intern</h2>
+          <h2>Copart</h2>
+          <h3>June 2021 - August 2021</h3>
+          <p>I worked at Copart as an intern in the Search and Shared Services team. I worked on technologies such as Java, Spring Boot 
+            and opensource technologies such as Apache Kafka and Apache Solr. </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/rit.jpg" /></div>
+          <h2>Undergraduate Teaching Assistant</h2>
+          <h2>RIT</h2>
+          <h3>August 2020 - December 2021</h3>
+          <p>I mentor and help undergraduate students who are learning Python for the first time. Developed an application
+            for students to automatically submit their homework that eventually helped me to grade.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/gh.jpg" /></div>
+          <h2>Full Stack Engineer Intern</h2>
+          <h2>GeekHive</h2>
+          <h3>January 2020 - April 2020</h3>
+          <p>My first internship in the United States. As part of my internship, I designed and developed a Search
+            Report system for the American Society of Hematology (ASH) using Apache Solr, MongoDB, and Elasticsearch.</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/accenture.png" /></div>
+          <h2>Application Developer Associate</h2>
+          <h2>Accenture</h2>
+          <h3>November 2016 - July 2018</h3>
+          <p>At Accenture, I worked as an Application Development Associate and developed an automation suite that
+            scraped report-generated test data to create customizable reports.</p>
+        </div>
       </div>
     </div>
   </section>
+  <!-- End Service Section -->
 
-  <!-- Projects Section -->
+  <!-- Project Section -->
+
   <section id="projects">
     <div class="projects container">
-      <h1 class="section-title">Projects</h1>
-      <div class="project">
-        <h2>Kafka Talker</h2>
-        <p>A Spring Boot application demonstrating Kafka Streams.</p>
-        <a href="https://github.com/jaisinganmol/kafka-streams-spring-boot-json-example" target="_blank">View on GitHub</a>
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
       </div>
-      <div class="project">
-        <h2>World City Search Engine</h2>
-        <p>A full-stack app for searching cities and locations using Angular and MongoDB.</p>
-        <a href="https://github.com/jaisinganmol/World-City-Search-Engine" target="_blank">View on GitHub</a>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Kafka Talker</h1>
+            <h2>Apache Kafka, Java, Spring Boot</h2>
+            <br>
+            <p> A simple but powerful Spring Boot application on how to read JSON in Kafka topics. With streams, this is
+              later shared between a Kafka producer and consumer.</p>
+          </div>
+          <a href="https://github.com/jaisinganmol/kafka-streams-spring-boot-json-example">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Mumbai Darshan</h1>
+            <h2>HTML5, CSS3, PHP, JavaScript</h2>
+            <br>
+            <p>A blurb more about my city, Mumbai, the city that never sleeps! All the spice and magic in it!</p>
+          </div>
+          <a href="http://solace.ist.rit.edu/~akj9051/final/index.php">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>UPSTAT-Conference</h1>
+            <h2>HTML5, CSS3, PHP, JavaScript</h2>
+            <br>
+            <p>A standardized webpage for American Statistical Association developers to create UP-STAT websites with
+              ease, including real time participant registration.</p>
+          </div>
+          <a href="https://github.com/jaisinganmol/UPSTAT-Conference">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Spider Web Crawler</h1>
+            <h2>Java, Spring Boot, JSoup</h2>
+            <br>
+            <p>A multithreaded web crawler that crawls any valid page to any depth</p>
+          </div>
+          <a href="https://github.com/jaisinganmol/WebCrawler">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>World City Search Engine</h1>
+            <h2>HTML, CSS, Node.js, MongoDB, Angular.js, GridFs</h2>
+            <br>
+            <p>A Full-stack web application that searches for countries, cities and locations based on a regex.</p></div>
+          <a href="https://github.com/jaisinganmol/World-City-Search-Engine">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Crime Patrol</h1>
+            <h2>Python, PostgreSQL, Open Refine, Tableau, ARIMA</h2>
+            <br>
+            <p>An analysis project that makes of forecasting patterns to predict and prevent crimes!</p>
+          </div>
+          <a href="https://github.com/jaisinganmol/Crime-Patrol">l
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Munching Num-Num</h1>
+            <h2>Python</h2>
+            <br>
+            <p>A Big Data Analytics project that provides food recommendations based on yelp reviews. </p>
+          </div>
+          <a href="https://github.com/jaisinganmol/Munching-Num-Num">
+            <div class="project-img">
+              <img src="./img/img-1.png" alt="img">
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
+  <!-- End Project Section -->
 
   <!-- Contact Section -->
   <section id="contact">
-    <div class="contact container">
-      <h1 class="section-title">Contact Me</h1>
-      <p>Email: <a href="mailto:jaisinganmol@gmail.com">jaisinganmol@gmail.com</a></p>
-      <p>Phone: +1 585-727-9103</p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/anmoljaising" target="_blank">linkedin.com/in/anmoljaising</a></p>
+    <div class="contact container-fluid">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+1 585-727-9103</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>jaisinganmol@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>35 Harbor Point Boulevard, Apt 503</h2>
+            <h2>Boston, Massachusetts - 02125</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/color/100/000000/linkedin-2--v1.png" /></div>
+          <div class="contact-info">
+            <h1>LinkedIn</h1>
+            <a href="https://www.linkedin.com/in/anmoljaising" target="_blank">
+              <h2>linkedin.com/in/anmoljaising/</h2>
+            </a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/material-rounded/100/000000/github.png" /></div>
+          <div class="contact-info">
+            <h1>GitHub</h1>
+            <a href="https://github.com/jaisinganmol" target="_blank">
+              <h2>github.com/jaisinganmol</h2>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+  <!-- End Contact Section -->
 
-  <!-- Back-to-Top Button -->
-  <button id="back-to-top">Top</button>
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="social">
+        <h1><span>A</span>nmol <span>J</span>aising</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/anmol.jaising" target="_blank"><img
+              src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/anmoljaising/" target="_blank"><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://twitter.com/jaisinganmol" target="_blank"><img
+              src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Anmol Jaising . All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
 
-  <script src="app.js"></script>
+  <script src="./app.js"></script>
 </body>
 
 </html>
